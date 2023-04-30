@@ -74,7 +74,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url('/img/Fondo1.png');
+    background-image: url("../img/Fondo1.png");
     background-size: cover;
   }
   .miFoto {
@@ -121,7 +121,7 @@ nav {
     align-items: center;
     height: 100vh;
     margin-bottom: -18.75em;
-    background-image: url('/img/Fondo2.png');
+    background-image: url('../img/Fondo2.png');
     background-size: cover;
   }
 
@@ -151,7 +151,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: 25em;
-    background-image: url('/img/Fondo3.png');
+    background-image: url('../img/Fondo3.png');
     background-size: cover;   
       
   }
