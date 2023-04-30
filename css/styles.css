@@ -18,12 +18,12 @@ nav {
     padding: 10px;    
   }
   .logo{
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+    width: 6.25em;
+    max-width: 100%;
+    height: auto;
+
     }
+
   nav ul {
     display: flex;
     flex-direction: row;
@@ -74,6 +74,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-image: url('/img/Fondo1.png');
+    background-size: cover;
   }
   .miFoto {
     border-radius: 50%;  
@@ -119,6 +121,8 @@ nav {
     align-items: center;
     height: 100vh;
     margin-bottom: -18.75em;
+    background-image: url('/img/Fondo2.png');
+    background-size: cover;
   }
 
   .contenidoContacto{
@@ -140,13 +144,15 @@ nav {
     padding: 1.25em;
   }
 
-  /* pie de pagina */
+
 
   .red-social {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25em;
+    background-image: url('/img/Fondo3.png');
+    background-size: cover;   
       
   }
 
@@ -164,6 +170,9 @@ nav {
 .red-social a:hover{
   color: #000101;
 }
+
+  /* pie de pagina */
+
 .grupo-2{
   background-color: #008CBA;
   padding: 0.938em 0.625em;
