@@ -7,16 +7,28 @@
 }
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 5%;
       }
+
+.fondo {
+  background-image: url("../img/fondototal.png");
+  background-size: cover;
+}
 /*panel de navegacion*/
 
 nav {
-    background: #008CBA;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;    
+  background: #008CBA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
   }
+ 
   .logo{
     width: 6.25em;
     max-width: 100%;
@@ -52,6 +64,9 @@ nav {
     transition: .5s;}
     
   @media only screen and (max-width: 768px) {
+    main{
+      margin-top: 40%;
+        }
     nav {
       flex-direction: column;
     }
@@ -74,8 +89,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url("../img/Fondo1.png");
-    background-size: cover;
+    z-index: -1;
+   
   }
   .miFoto {
     border-radius: 50%;  
@@ -83,6 +98,7 @@ nav {
     margin-bottom: -5em;
     max-width: 100%;
     height: auto;
+  
   }
   .titulos {
     margin-bottom: 0.625em;
@@ -121,8 +137,6 @@ nav {
     align-items: center;
     height: 100vh;
     margin-bottom: -18.75em;
-    background-image: url('../img/Fondo2.png');
-    background-size: cover;
   }
 
   .contenidoContacto{
@@ -144,15 +158,11 @@ nav {
     padding: 1.25em;
   }
 
-
-
   .red-social {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 25em;
-    background-image: url('../img/Fondo3.png');
-    background-size: cover;   
       
   }
 
