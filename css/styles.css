@@ -11,15 +11,9 @@ body {
       }
 
 .fondo {
-  width: 100%;
-  height: auto;
-  background-image: url("img/Diseño\ sin\ título\ \(5\).png");
-  background-repeat: no-repeat;
-  background-position: center;
+  background-image: url("../img/fondototal.png");
   background-size: cover;
 }
-
-
 /*panel de navegacion*/
 
 nav {
@@ -198,57 +192,4 @@ nav {
 .grupo-2 small{
   font-size: 0.938em;
 }
-/* Estilos para el modo nocturno */
-
-.modo-nocturno {
-  background-image: url("img/Diseño\ sin\ título\ \(4\).png");
-  color: #fff; /* Texto blanco */
-}
-
-.modo-nocturno nav {
-  background-color: #111; /* Fondo oscuro para el panel de navegación */
-}
-
-.modo-nocturno nav ul li a {
-  color: #fff; /* Texto blanco para los enlaces del panel de navegación */
-}
-
-.modo-nocturno .miSection1 {
-  color: #fff; /* Texto blanco para la sección 1 */
-}
-
-.modo-nocturno .boton-descarga{
-  background-color: #111;
-}
-
-.modo-nocturno .miSection2 {
-  color: #fff; /* Texto blanco para la sección 2 */
-}
-
-.modo-nocturno .contenidoContacto{
-  background-color: #111; /* fondo para el cuadro de texto*/
-}
-
-.modo-nocturno .red-social a {
-  background-color: #111; /* Fondo oscuro para los íconos de redes sociales */
-  color: #fff; /* Texto blanco para los íconos de redes sociales */
-}
-
-.modo-nocturno .grupo-2  {
-  background-color: #111; /* Fondo oscuro para el pie de página */
-  color: #fff; /* Texto blanco para el pie de página */
-}
-
-.modo-nocturno  a:hover{ /*Sombreado */
-  background: #ee0404;
-  transition: .5s;}
-
-  .modo-nocturno .red-social a {
-    background-color: #111; /* Mantener el fondo negro de los iconos de redes */
-  }
-  
-  .modo-nocturno .red-social a:hover {
-    color: #ee0404; /* Cambiar el color de los iconos al hacer hover */
-  }
-  
-  
+    
